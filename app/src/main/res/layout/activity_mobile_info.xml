@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="top"
+        tools:context=".HomeScreen">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/mobileinfoappbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:title="Mobile Info"
+            app:titleTextColor="@android:color/white"/>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/deviceModelCardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="11dp"
+            app:cardCornerRadius="5dp"
+            app:cardUseCompatPadding="true"
+            android:background="#8e44ad">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/mobile"
+                    android:contentDescription="Mobile Icon" />
+
+                <TextView
+                    android:id="@+id/deviceModelViewText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:textStyle="bold"
+                    android:text="Model No : " />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- EMI CardView -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/emiCardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="11dp"
+            app:cardCornerRadius="5dp"
+            app:cardUseCompatPadding="true"
+            android:background="#8e44ad">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/emiTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Device Manufacturer" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Build Number CardView -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/buildNumberCardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="11dp"
+            app:cardCornerRadius="5dp"
+            app:cardUseCompatPadding="true"
+            android:background="#8e44ad">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/buildNumberTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Build Number: " />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Android Version CardView -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/androidVersionCardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="11dp"
+            app:cardCornerRadius="5dp"
+            app:cardUseCompatPadding="true"
+            android:background="#8e44ad">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/androidVersionTextView"
+                    android:layout_width="wrap_content"
+                    android:textStyle="bold"
+
+                    android:layout_height="wrap_content"
+                    android:text="Android Version: " />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Security Update CardView -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/securityUpdateCardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="11dp"
+            app:cardCornerRadius="5dp"
+            app:cardUseCompatPadding="true"
+            android:background="#8e44ad">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/securityUpdateTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+
+                    android:text="Security Update: January 1, 2022" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Manufacturer Number CardView -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/manufactureNumberCardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="11dp"
+            app:cardCornerRadius="5dp"
+            app:cardUseCompatPadding="true"
+            android:background="#8e44ad">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/manufactureNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Manufacturer Number: " />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>
