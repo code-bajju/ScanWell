@@ -82,6 +82,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:id="@+id/battery_info_text_view"
                 android:text="Battery Health : 90%"
                 android:textSize="18sp"
                 android:textStyle="bold"

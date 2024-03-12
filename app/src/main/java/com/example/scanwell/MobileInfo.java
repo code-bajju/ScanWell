@@ -1,7 +1,10 @@
 package com.example.scanwell;
 
+import android.content.Context;
 import android.os.Build;
 import android.os.Bundle;
+import android.provider.Settings;
+import android.telephony.TelephonyManager;
 import android.view.MenuItem;
 import android.widget.TextView;
 
@@ -23,6 +26,8 @@ public class MobileInfo extends AppCompatActivity {
         setSecurityUpdateInfo();
         setManufactureNumberInfo();
     }
+
+
 
     private void setDeviceModelInfo() {
         TextView deviceModelViewText = findViewById(R.id.deviceModelViewText);
