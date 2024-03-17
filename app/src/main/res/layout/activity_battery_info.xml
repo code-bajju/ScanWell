@@ -51,9 +51,10 @@
                     android:textStyle="bold" />
 
                 <TextView
+                    android:id="@+id/batteryHealthTextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Battery Cycle Count: 25"
+                    android:text="Battery Cycle Count: 225"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -82,8 +83,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/battery_info_text_view"
-                android:text="Battery Health : 90%"
+                android:id="@+id/batteryStatusTextView"
+
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:padding="16dp" />
@@ -95,16 +96,14 @@
                 android:gravity="center"
                 android:padding="16dp">
 
-                <View
-                    android:layout_width="300dp"
-                    android:layout_height="50dp"
-                    android:background="#2ecc71" />
-
-                <View
-                    android:layout_width="30dp"
-                    android:layout_height="50dp"
-                    android:background="#e74c3c"
-                     />
+                <ProgressBar
+                    android:id="@+id/batteryProgressBar"
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_below="@id/batteryStatusTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:max="100"
+                    android:progress="0" />
 
             </LinearLayout>
 
