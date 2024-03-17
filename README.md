@@ -4,10 +4,11 @@ ScanWell is a comprehensive mobile diagnostic test app designed to provide users
 
 ### SnapShots:
 
-| Image 1                | Image 2                | Image 3                |
-|------------------------|------------------------|------------------------|
-| ![](https://raw.githubusercontent.com/code-bajju/ScanWell/main/app/src/main/res/drawable/image0.jpeg) | ![](https://raw.githubusercontent.com/code-bajju/ScanWell/main/app/src/main/res/drawable/image1.jpeg) | ![](https://raw.githubusercontent.com/code-bajju/ScanWell/main/app/src/main/res/drawable/image2.jpeg) |
-| ![](https://raw.githubusercontent.com/code-bajju/ScanWell/main/app/src/main/res/drawable/image3.jpeg) | ![](https://raw.githubusercontent.com/code-bajju/ScanWell/main/app/src/main/res/drawable/image4.jpeg) | ![](https://raw.githubusercontent.com/code-bajju/ScanWell/main/app/src/main/res/drawable/image5.jpeg)                        |
+| Image 1 | Image 2 | Image 3 |
+|---------|---------|---------|
+| <img src="https://raw.githubusercontent.com/code-bajju/ScanWell/main/app/src/main/res/drawable/image0.jpeg" width="180" > | <img src="https://raw.githubusercontent.com/code-bajju/ScanWell/main/app/src/main/res/drawable/image1.jpeg" width="180" > | <img src="https://raw.githubusercontent.com/code-bajju/ScanWell/main/app/src/main/res/drawable/image2.jpeg" width="180" > |
+| <img src="https://raw.githubusercontent.com/code-bajju/ScanWell/main/app/src/main/res/drawable/image3.jpeg" width="180" > | <img src="https://raw.githubusercontent.com/code-bajju/ScanWell/main/app/src/main/res/drawable/image4.jpeg" width="180" > | <img src="https://raw.githubusercontent.com/code-bajju/ScanWell/main/app/src/main/res/drawable/image5.jpeg" width="180" > |
+
 
 
 ### Key Features:
